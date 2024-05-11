@@ -1,0 +1,11 @@
+{
+  "name": "estudo_migration",
+  "version": "1.0.0",
+  "description": "Testes e estudo para criar uma estrutura de migrations",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Leoncio Porfirio",
+  "license": "ISC"
+}
