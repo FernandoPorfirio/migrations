@@ -2,10 +2,18 @@
   "name": "estudo_migration",
   "version": "1.0.0",
   "description": "Testes e estudo para criar uma estrutura de migrations",
-  "main": "src/index.js",
+  "main": "knexfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrations": "knex migrate:latest ",
+    "seeds": "knex seed:run ",
+    "create_migrate": "knex migrate:make",
+    "create_seed": "knex seed:make"
   },
   "author": "Fernando Leoncio Porfirio",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "knex": "^3.1.0",
+    "pg": "^8.11.5"
+  }
 }

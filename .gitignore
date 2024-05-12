@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#script para criar banco docker limpo e rodar migrations e seeds
+script_migrations.sh
